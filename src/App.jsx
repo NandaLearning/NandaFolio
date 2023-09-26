@@ -2,7 +2,7 @@
 import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import NotFound from "./pages/notfound/notfound";
+import NotFound from "./pages/NotFound";
 export default function App(){
   return(
     //ini alur router nya
