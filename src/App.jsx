@@ -3,6 +3,9 @@ import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Tech from "./pages/Tech";
+import Work from "./pages/Work";
+import Contact from "./pages/Contact";
 export default function App(){
   return(
     //ini alur router nya
@@ -10,6 +13,10 @@ export default function App(){
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About/>} />
+    <Route path="/tech" element={<Tech/>} />
+    <Route path="/workship" element={<Work/>} />
+    <Route path="/contact" element={<Contact/>} />
+
 
 
 
